@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-gem 'forem-theme-base', :git => "git://github.com/radar/forem-theme-base", :branch => "master"
-
 gemspec
 
 gem 'pry-rails'
@@ -17,7 +15,6 @@ group :test do
   platforms :ruby do
     gem "forem-redcarpet"
     gem "mysql2"
-    gem "pg"
     gem "sqlite3"
   end
 
